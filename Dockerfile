@@ -9,3 +9,4 @@ RUN apk --no-cache add jq git go npm \
 # stating USER before WORKDIR means the directory is created with the non-root proper ownership
 USER opencode
 WORKDIR /home/opencode
+ENTRYPOINT ["/bin/sh"]
