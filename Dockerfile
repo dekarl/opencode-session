@@ -1,4 +1,4 @@
-FROM ghcr.io/anomalyco/opencode:1.18.32
+FROM ghcr.io/anomalyco/opencode:1.17.20
 
 USER root
 
