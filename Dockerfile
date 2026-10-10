@@ -2,7 +2,7 @@ FROM ghcr.io/anomalyco/opencode:1.18.34
 
 USER root
 
-RUN apk --no-cache add jq git go npm \
+RUN apk --no-cache add jq git github-cli go npm \
     && addgroup -g 1000 opencode \
     && adduser -u 1000 -G opencode -D opencode
 
